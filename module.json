@@ -10,7 +10,7 @@
       "discord": "cougarkevin#4815"
     }
   ],  
-  "version": "2.0.1",
+  "version": "3.0.0",
   "minimumCoreVersion": "0.8.2",
   "compatibleCoreVersion": "9",
   "scripts": [
@@ -27,6 +27,6 @@
   "primaryTokenAttribute": null,
   "secondaryTokenAttribute": null,
   "url": "https://github.com/kevinsherwood/foundry",
-  "manifest": "https://github.com/kevinsherwood/foundry/releases/download/v2.0.1/module.json",
-  "download": "https://github.com/kevinsherwood/foundry/releases/download/v2.0.1/release_test.zip"
+  "manifest": "https://github.com/kevinsherwood/foundry/releases/download/v3.0.0/module.json",
+  "download": "https://github.com/kevinsherwood/foundry/releases/download/v3.0.0/module.zip"
 }
