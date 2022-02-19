@@ -27,6 +27,6 @@
   "primaryTokenAttribute": null,
   "secondaryTokenAttribute": null,
   "url": "https://github.com/kevinsherwood/foundry",
-  "manifest": "https://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@github.com/kevinsherwood/foundry/releases/download/v2.0.1/module.json",
-  "download": "https://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@github.com/kevinsherwood/foundry/releases/download/v2.0.1/release_test.zip"
+  "manifest": "https://github.com/kevinsherwood/foundry/releases/download/v2.0.1/module.json",
+  "download": "https://github.com/kevinsherwood/foundry/releases/download/v2.0.1/release_test.zip"
 }
