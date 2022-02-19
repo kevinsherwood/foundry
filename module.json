@@ -1,0 +1,15 @@
+{
+  "name": "foundry",
+  "title": "release test",
+  "description": "first foundry release",
+  "author": "kevin",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "0.9.0",
+  "scripts": [
+    "init.js"
+  ],
+  "url": "https://github.com/kevinsherwood/foundry",
+  "manifest": "",
+  "download": "",
+}
