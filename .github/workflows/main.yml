@@ -4,7 +4,25 @@ on:
   push:
     branches:
       - master
-
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+      tags:
+        description: 'Manually run workflow'
+        required: false
+        type: boolean
+      environment:
+        description: 'Environment for manual run'
+        type: environment
+        required: true
 jobs:
   build:
     runs-on: ubuntu-latest
