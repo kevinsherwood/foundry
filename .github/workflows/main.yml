@@ -15,7 +15,6 @@ jobs:
         working-directory: ./
         run: zip -r ./module.zip ./*
 
-
       - name: Get Version
         shell: bash
         id: get-version
