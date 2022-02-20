@@ -1,7 +1,7 @@
 {
-  "name": "kevin",
-  "title": "release test",
-  "description": "first foundry release",
+  "name": "urunnighenn",
+  "title": "urunnighenn alpha test",
+  "description": "compendiums for first adventure",
   "author": "Kevin Sherwood",
   "authors": [
     {
@@ -10,16 +10,9 @@
       "discord": "cougarkevin#4815"
     }
   ],  
-  "version": "v3.0.0",
+  "version": "v4.0.0",
   "minimumCoreVersion": "0.8.2",
   "compatibleCoreVersion": "9",
-  "scripts": [
-    "init.js"
-  ],
-  "esmodules": [],
-  "templates": [],
-  "styles": [],
-  "packs": [],
   "dependencies": [],
   "socket": true,
   "gridDistance": 5,
@@ -27,6 +20,220 @@
   "primaryTokenAttribute": null,
   "secondaryTokenAttribute": null,
   "url": "https://github.com/kevinsherwood/foundry",
-  "manifest": "https://github.com/kevinsherwood/foundry/releases/download/v3.0.0/module.json",
-  "download": "https://github.com/kevinsherwood/foundry/releases/download/v3.0.0/module.zip"
+  "manifest": "https://github.com/kevinsherwood/foundry/releases/download/v4.0.0/module.json",
+  "download": "https://github.com/kevinsherwood/foundry/releases/download/v4.0.0/module.zip",
+  "scripts": [
+    "init.js"
+  ],
+  "esmodules": [],
+  "templates": [],
+  "styles": [],
+  "packs": [
+    {
+      "label": "Baeth’ellesh Actors",
+      "type": "Actor",
+      "name": "baethellesh-actors",
+      "path": "packs/baethellesh-actors.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Actor"
+    },
+    {
+      "label": "Baeth’ellesh Items",
+      "type": "Item",
+      "name": "baethellesh-items",
+      "path": "packs/baethellesh-items.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Item"
+    },
+    {
+      "label": "Baeth’ellesh Journals",
+      "type": "JournalEntry",
+      "name": "baethellesh-journals",
+      "path": "packs/baethellesh-journals.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "Baeth’ellesh Scenes",
+      "type": "Scene",
+      "name": "baethellesh-scenes",
+      "path": "packs/baethellesh-scenes.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "label": "Roucher Battock Actors",
+      "type": "Actor",
+      "name": "roucher-battock-actors",
+      "path": "packs/roucher-battock-actors.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "label": "Roucher Battock Items",
+      "type": "Item",
+      "name": "roucher-battock-items",
+      "path": "packs/roucher-battock-items.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "Roucher Battock Journals",
+      "type": "JournalEntry",
+      "name": "roucher-battock-journals",
+      "path": "packs/roucher-battock-journals.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "Roucher Battock Scenes",
+      "type": "Scene",
+      "name": "roucher-battock-scenes",
+      "path": "packs/roucher-battock-scenes.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "label": "Bandit Hideout Actors",
+      "type": "Actor",
+      "name": "bandit-hideout-actors",
+      "path": "packs/bandit-hideout-actors.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "label": "Bandit Hideout Items",
+      "type": "Item",
+      "name": "bandit-hideout-items",
+      "path": "packs/bandit-hideout-items.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "Bandit Hideout Journals",
+      "type": "JournalEntry",
+      "name": "bandit-hideout-journals",
+      "path": "packs/bandit-hideout-journals.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "Bandit Hideout Scenes",
+      "type": "Scene",
+      "name": "bandit-hideout-scenes",
+      "path": "packs/bandit-hideout-scenes.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "label": "River Barge Actors",
+      "type": "Actor",
+      "name": "river-barge-actors",
+      "path": "packs/river-barge-actors.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "label": "River Barge Items",
+      "type": "Item",
+      "name": "river-barge-items",
+      "path": "packs/river-barge-items.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "River Barge Journals",
+      "type": "JournalEntry",
+      "name": "river-barge-journals",
+      "path": "packs/river-barge-journals.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "River Barge Scenes",
+      "type": "Scene",
+      "name": "river-barge-scenes",
+      "path": "packs/river-barge-scenes.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "label": "The Dancing Tower Actors",
+      "type": "Actor",
+      "name": "the-dancing-tower-actors",
+      "path": "packs/the-dancing-tower-actors.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "label": "The Dancing Tower Items",
+      "type": "Item",
+      "name": "the-dancing-tower-items",
+      "path": "packs/the-dancing-tower-items.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "The Dancing Tower Journals",
+      "type": "JournalEntry",
+      "name": "the-dancing-tower-journals",
+      "path": "packs/the-dancing-tower-journals.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "The Dancing Tower Scenes",
+      "type": "Scene",
+      "name": "the-dancing-tower-scenes",
+      "path": "packs/the-dancing-tower-scenes.db",
+      "system": "dnd5e",
+      "module": "urunnighenn",
+      "entity": "Scene",
+      "private": false
+    }
+  ],
+  "system": "dnd5e",
+  "dependencies": [],
+  "socket": false,
+  "protected": false,
+  "coreVersion": "9.249",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "1.5.7"
 }
